@@ -20,18 +20,21 @@ def derive_wallets(words, coin, num):
     return json.loads(output)
 
 # Create a dictionary object called coins to store the output from `derive_wallets`.
-coins = derive_wallets(mnemonic,BTCTEST,3)
+coins = {BTCTEST:[],ETH:[]}
+list = BTCTEST,ETH
+for coin in list:
+    coins[coin].append(derive_wallets(mnemonic,coin,3))
 
-print(coins)
-
-# Create a function called `priv_key_to_account` that converts privkey strings to account objects.ZZ
-#def priv_key_to_account(# YOUR CODE HERE):
+# Create a function called `priv_key_to_account` that converts privkey strings to account objects.
+#def priv_key_to_account(coin, priv_key):
     # YOUR CODE HERE
 
 # Create a function called `create_tx` that creates an unsigned transaction appropriate metadata.
-#def create_tx(# YOUR CODE HERE):
+#def create_tx(coin, account, to, amount):
     # YOUR CODE HERE
 
 # Create a function called `send_tx` that calls `create_tx`, signs and sends the transaction.
-#def send_tx(# YOUR CODE HERE):
+#def send_tx(coin, account, to, amount):
     # YOUR CODE HERE
+
+print(coins)
