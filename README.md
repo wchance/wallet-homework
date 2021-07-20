@@ -19,6 +19,10 @@ you a serious edge against the competition.
 In this assignment, however, you will only need to get 2 coins working: Ethereum and Bitcoin Testnet.
 Ethereum keys are the same format on any network, so the Ethereum keys should work with your custom networks or testnets.
 
+## Requirements
+The following is a link to view the version of libraries installed.
+[Requirements File](requirements.txt)
+
 ## Dependencies
 
 The following dependencies are required for this assignment and were likely already installed as part of your preparation for in-class activities. 
