@@ -37,12 +37,12 @@ The following dependencies are required for this assignment and were likely alre
 - [`web3.py`](https://github.com/ethereum/web3.py) Python Ethereum library.
 
 
-![BTC Test Transaction](BTCTEST_transaction.PNG)
+![BTC Test Transaction](Images/BTCTEST_transaction.PNG)
 ```sh
 send_tx(BTCTEST, priv_key_to_account(BTCTEST, btctest_prv_key), 'mikAWHHgu4RQG6fwqgcqAWR6WL88ZsCMg5', 0.000005)
 ```
 
-![ETH Transaction](ETH_transaction.PNG)
+![ETH Transaction](Images/ETH_transaction.PNG)
 ```sh
 send_tx(ETH, priv_key_to_account(ETH, eth_prv_key), '0xb7f529f2c492683859Db94E68a59D572a241f6Ae', 5000000000000000000)
 ```
