@@ -39,7 +39,7 @@ The following dependencies are required for this assignment and were likely alre
 
 ![BTC Test Transaction](Images/BTCTEST_transaction.PNG)
 ```sh
-send_tx(BTCTEST, priv_key_to_account(BTCTEST, btctest_prv_key), 'mikAWHHgu4RQG6fwqgcqAWR6WL88ZsCMg5', 0.000005)
+send_tx(BTCTEST, priv_key_to_account(BTCTEST, btctest_prv_key), 'mikAWHHgu4RQG6fwqgcqAWR6WL88ZsCMg5', 0.0000001)
 ```
 
 ![ETH Transaction](Images/ETH_transaction.PNG)
